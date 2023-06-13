@@ -8,8 +8,8 @@
  * @func: A pointer to a function to call for each node.
  *        The value in the node must be passed as a parameter to this function.
  *
- * Description: This function traverses a binary tree using post-order traversal
- *              and applies the given function on each node.
+ * Description: This function traverses a binary tree using post-order
+ *		traversal and applies the given function on each node.
  *              The traversal visits the left subtree, then the right subtree,
  *              and finally the current node.
  *              If either the tree or func is NULL, it does nothing.
