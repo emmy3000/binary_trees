@@ -1,6 +1,6 @@
 #include "binary_trees.h"
 
-/* Levelorder function declarations */
+/* Function declarations */
 levelorder_queue_t *enqueue(levelorder_queue_t *queue, binary_tree_t *node);
 levelorder_queue_t *dequeue(levelorder_queue_t *queue);
 
