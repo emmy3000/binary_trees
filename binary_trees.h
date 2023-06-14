@@ -55,5 +55,6 @@ int binary_tree_is_complete(const struct binary_tree_s *tree);
 levelorder_queue_t *enqueue(levelorder_queue_t *queue, struct binary_tree_s *node);
 levelorder_queue_t *dequeue(levelorder_queue_t *queue);
 binary_tree_t *binary_tree_rotate_left(binary_tree_t *tree);
+binary_tree_t *binary_tree_rotate_right(binary_tree_t *tree);
 
 #endif /* BINARY_TREES_H */
